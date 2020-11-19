@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>ThaiCreate.Com PHP & MySQL Tutorial</title>
+<title>itf-lab</title>
 </head>
 <body>
 <?php
