@@ -13,3 +13,4 @@ echo "Record deleted successfully";
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 mysqli_close($conn);
+?>
