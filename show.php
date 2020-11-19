@@ -48,7 +48,7 @@ while($Result = mysqli_fetch_array($res))
 mysqli_close($conn);
 ?>
 <a href="https://ingkawat.azurewebsites.net/form.html" class="btn btn-info">add</a>
-<a href="https://ingkawat.azurewebsites.net/edit.html" class="btn btn-warning">edit</a>
-<a href="https://ingkawat.azurewebsites.net/delete.html" class="btn btn-danger">delete</a>
+<a href="https://ingkawat.azurewebsites.net/formedit.html" class="btn btn-warning">edit</a>
+<a href="https://ingkawat.azurewebsites.net/formdelete.html" class="btn btn-danger">delete</a>
 </body>
 </html>
