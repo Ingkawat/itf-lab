@@ -14,3 +14,7 @@ echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 mysqli_close($conn);
 ?>
+
+<div class="container">
+  <center><a href="show.php"><input type="button" value="Show" class="btn btn-info" class="ex1"></a></center>
+</div>
