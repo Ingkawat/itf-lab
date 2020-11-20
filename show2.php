@@ -7,10 +7,10 @@
       background-color:#9999ff; color:white;
     }
     td{
-      background-color:#ccccff;
+      background-color:#e5e5ff;
     }
     body{
-      background-color:#6666ff;
+      background-color:#ffffcc;
     }
   </style>
 </head>
