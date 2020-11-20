@@ -2,7 +2,6 @@
   <form method="post">
         Name: <input class="form-control" type="text" name="name" /><br>
         Comment: <input class="form-control" type="text" name="comment" /><br>
-    <a type="submit" href='show2.php'>submit</a>
         </form>
 </div>
 <?php
