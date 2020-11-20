@@ -1,5 +1,5 @@
 <div class="container">
-  <form action="edit1.php" method="post">
+  <form method="post">
         Name: <input class="form-control" type="text" name="name" /><br>
         Comment: <input class="form-control" type="text" name="comment" /><br>
         <input type="submit" />
@@ -17,12 +17,7 @@ $name = $_POST['name'];
 $comment= $_POST['comment'];  
 
 $sql = "UPDATE guestbook SET Comment='$comment', Name='$name' WHERE id=$id";
-if (mysqli_query($conn, $sql)) {
-echo "Edit successfully";
 $query = mysqli_query($conn, $sql);
-} else {
-echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-}
 mysqli_close($conn);
 ?>
 
