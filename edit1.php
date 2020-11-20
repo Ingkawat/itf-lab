@@ -5,7 +5,7 @@
         Comment: <input class="form-control" type="text" name="comment" /><br>
         </form>
   <div class="row">
-    <div class="col">
+    <div class="col" style='margin-left:60px';>
     <button>submit</button>
     </div>
     <div class="col">
