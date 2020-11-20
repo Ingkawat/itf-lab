@@ -2,6 +2,7 @@
   <form method="post">
         Name: <input class="form-control" type="text" name="name" /><br>
         Comment: <input class="form-control" type="text" name="comment" /><br>
+    <button>submit</button>
         </form>
 </div>
 <?php
