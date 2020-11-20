@@ -20,4 +20,5 @@ $sql = "UPDATE guestbook SET Comment='$comment', Name='$name' WHERE id=$id";
 $query = mysqli_query($conn, $sql);
 mysqli_close($conn);
 ?>
+<a href="show2.php" class="btn btn-info" >submit</a>
 
