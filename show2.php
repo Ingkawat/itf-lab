@@ -37,7 +37,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://ingkawat.azurewebsites.net/form1.html" class="btn btn-info"style="margin-left:50%;">add</a>
+<a href="https://ingkawat.azurewebsites.net/form1.html" class="btn btn-info"style="margin-left:50%; margin-top:20px;">add</a>
   </div>
   </body>
 </html>
