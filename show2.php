@@ -16,7 +16,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 <div class="container">
   <table width="600" border="1" style="margin-left:25%; margin-top:30px;">
   <tr>
-    <th width="100"> <div align="center">Name</div></th>
+    <th width="100"> <div align="center"style="blackground-color:blue;">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
     <th width="150"> <div align="center">Action </div></th>
   </tr>
