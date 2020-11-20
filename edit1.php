@@ -9,7 +9,7 @@
         </form>
     </div>
     <div class="col">
-      <a style='margin-top:170px'; href="show2.php" class="btn btn-info" >go to show</a>
+      <a style='margin-top:170px; margin-left:-50px;' href="show2.php" class="btn btn-info" >go to show</a>
       </div>
   </div>
 
