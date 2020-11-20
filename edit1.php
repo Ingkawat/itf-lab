@@ -5,11 +5,12 @@ if (mysqli_connect_errno($conn))
 {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-$name = $_POST['name1'];
-$comment = $_POST['comment1'];
-$sql = "UPDATE guestbook SET comment='$comment', name='$name' WHERE name='$name'";
-if (mysqli_query($conn, $sql)) {
-echo "Edit successfully";
+$id = $_GET['ID'];
+
+$sql = "SELECT * FROM guestbook WHERE id = '$id'";
+$query = mysqli_query($conn, $sql);
+if (!$query) {
+  header('Location: form1.html');
 } else {
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
