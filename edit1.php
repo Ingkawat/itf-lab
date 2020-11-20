@@ -6,7 +6,7 @@ if (mysqli_connect_errno($conn))
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 $id = $_GET['ID'];
-echo '$id'
+echo '$id';
 $sql = "UPDATE guestbook SET Comment='comment', Name='name' WHERE id=$id";
 if (mysqli_query($conn, $sql)) {
 echo "Edit successfully";
