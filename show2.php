@@ -6,8 +6,11 @@
     th{
       background-color:#9999ff; color:white;
     }
+    td{
+      background-color:#ccccff;
+    }
     body{
-      background-color:#00b200;
+      background-color:#3232ff;
     }
   </style>
 </head>
