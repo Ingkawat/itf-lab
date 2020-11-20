@@ -5,7 +5,10 @@
   <style>
     th{
       background-color:#9999ff; color:white;
-    } 
+    }
+    body{
+      background-color:#00b200;
+    }
   </style>
 </head>
 <body>
