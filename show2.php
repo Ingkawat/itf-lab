@@ -14,7 +14,7 @@ if (mysqli_connect_errno($conn))
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <div class="container">
-  <table width="600" border="1" style="margin-left:25%;">
+  <table width="600" border="1" style="margin-left:25%; margin-top:30px;">
   <tr>
     <th width="100"> <div align="center">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
@@ -37,7 +37,7 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
-<a href="https://ingkawat.azurewebsites.net/form1.html" class="btn btn-info">add</a>
+<a href="https://ingkawat.azurewebsites.net/form1.html" class="btn btn-info"style="margin-left:50%;">add</a>
   </div>
   </body>
 </html>
