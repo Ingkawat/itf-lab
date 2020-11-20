@@ -8,9 +8,10 @@ die('Failed to connect to MySQL: '.mysqli_connect_error());
 $id = $_GET['ID'];
 
 $sql = "SELECT * FROM guestbook WHERE id = '$id'";
+$sql = "UPDATE guestbook SET comment='comment', name='name' WHERE id='$id'";
+if (mysqli_query($conn, $sql)) {
+echo "Edit successfully";
 $query = mysqli_query($conn, $sql);
-if (!$query) {
-  header('Location: form1.html');
 } else {
 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
