@@ -1,15 +1,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <div class="container">
+  <div class="row">
+    <div class="col">
   <form method="post">
         Name: <input class="form-control" type="text" name="name" /><br>
         Comment: <input class="form-control" type="text" name="comment" /><br>
-        </form>
-  <div class="row">
-    <div class="col" style='margin-left:60px';>
     <button>submit</button>
+        </form>
     </div>
     <div class="col">
-      <a href="show2.php" class="btn btn-info" >go to show</a>
+      <a style='margin-top:120px'; href="show2.php" class="btn btn-info" >go to show</a>
       </div>
   </div>
 
