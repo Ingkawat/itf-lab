@@ -35,5 +35,6 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
+<a href="https://ingkawat.azurewebsites.net/form.html" class="btn btn-info">add</a>
 </body>
 </html>
